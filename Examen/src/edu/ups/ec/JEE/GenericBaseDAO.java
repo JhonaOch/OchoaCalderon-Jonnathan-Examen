@@ -18,4 +18,7 @@ public interface GenericBaseDAO<T, ID> {
     public boolean deleteById(ID id);
     
     public List<T> find();
+    
+    
+    
 }

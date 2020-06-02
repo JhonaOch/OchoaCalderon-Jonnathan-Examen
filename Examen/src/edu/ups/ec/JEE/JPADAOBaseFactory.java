@@ -19,11 +19,7 @@ public  class JPADAOBaseFactory extends DAObaseFactory{
 		return new JPAComidaDAO();
 	}
 	
-	@Override
-	public TarjetaDAO getComidaDAO() {
-		// TODO Auto-generated method stub
-		return new JPATarjetaDAO();
-	}
+	
 
 	
 

@@ -12,14 +12,6 @@ public class JPAPedidoDAO extends JPAGenericDAO<Pedido, String> implements Pedid
 		//super(user.class);
 		super(Pedido.class);
 	}
-	
-	
-	
-
-	public JPAPedidoDAO(Class<Pedido> persistenClass) {
-		super(persistenClass);
-		// TODO Auto-generated constructor stub
-	}
 
 	@Override
 	public Pedido findUser(String correo, String contrasena) {
@@ -32,5 +24,12 @@ public class JPAPedidoDAO extends JPAGenericDAO<Pedido, String> implements Pedid
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	
+	
+
+	
+
+
 
 }
